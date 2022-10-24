@@ -1,6 +1,55 @@
 body {
   width: 100vw;
   height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+.headerContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 2px red;
+  /* background-image: url("./my-images/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg");
+  background-size: 100% 100%; */
+}
+.leftOfHeader {
+  height: 100%;
+  width: 50%;
+  background-color: red;
+}
+.rightOfHeader {
+  height: 100%;
+  width: 50%;
+  background-color: aqua;
+}
+.iconLogo {
+  height: 10%;
+  width: 100%;
+  border: 3px solid;
+}
+.servicesAndContacts {
+  height: 10%;
+  width: 100%;
+  border: 3px solid;
+}
+
+
+
+
+
+
+
+
+
+/* body {
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding:  0;
   background-color: beige;
@@ -50,4 +99,4 @@ body {
 }
 .desc {
   font-weight: 100;
-}
+} */
